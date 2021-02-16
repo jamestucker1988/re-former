@@ -1,2 +1,11 @@
-<%= form_with(url:'/user', method: 'post')%>
-<%= label_tag(:username, username)%>
+<!DOCTYPE html>
+<%= form_with(url:'/user', method: 'POST') do %>
+<%= label_tag(:username, :user)%>
+<%= text_field_tag(:username)%>
+<%= label_tag(:email,:email)%>
+<%= text_field_tag(:email)%>
+<%= label_tag(:password, :password)%>
+<%= text_field_tag(:password)%>
+<%= submit_tag('submit')%>
+<%end%>
+</html>
