@@ -1,0 +1,8 @@
+{
+  "powermode.enabled": true,
+  "powermode.explosionSize": 2,
+  "powermode.shakeIntensity": 10,
+  "powermode.customCss": {
+  
+  }
+}
